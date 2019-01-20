@@ -48,16 +48,11 @@ a:hover {
 }
 
 #area-principal {
-    border: solid 2px red;
     width: 920px;
     margin: 0px auto;
     padding: 20px 20px 0px 20px;
 }
 
-#area-lateral, #area-postagem{
-    border: solid 2px blue;
-    
-}
 
 #area-postagem {
     width: 660px;
@@ -84,7 +79,10 @@ a:hover {
     padding: 20px;
     margin-bottom: 20px;
     background-color: #ffffff;
-    border: solid 2px green;
+}
+
+#categorias {
+    margin-top: 20px;
 }
 
 img {
@@ -110,6 +108,8 @@ h2 {
 
 h3 {
     color: #646464;
+    padding: 5px;
+    background-color: #cfcfcf;
 }
 
 .branco {
