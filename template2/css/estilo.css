@@ -1,0 +1,164 @@
+/*Formatações gerais*/
+
+* {
+    padding: 0px;
+    margin: 0px;
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+    background-color: #d3d3d3;
+}
+
+/*Layout e tamanhos do cabeçalho*/
+#areaCabecalho {
+    background-color: #AE3A3A;
+    text-align: center;
+    padding: 10px;
+}
+
+/*logo*/
+#areaLogo {
+    font-size: 1.2em;
+    color: #ffffff;
+    padding: 15px;
+}
+
+#areaLogo span {
+    color: #a5a5a5;
+}
+
+/*menu de navegação*/
+
+#areaMenuNavegacao {
+    padding: 10px;
+}
+
+#areaMenuNavegacao a{
+    color: #ffffff;
+    padding: 10px;
+    font-size: 1.1em;
+}
+
+#areaMenuNavegacao a:hover {
+    color: #AE3A3A;
+    background: #ffffff;
+}
+
+
+/*area principal*/
+
+#areaPrincipal {
+    /* border: solid 1px blue; */
+    padding: 10px;
+    width: 940px;
+    margin: 0px auto;
+}
+
+/*area de conteúdo principal*/
+
+#areaConteudo {
+    /* padding: 10px; */
+    float: left;
+    width: 680px;
+}
+
+.postagem {
+    padding: 20px;
+    background-color: #ffffff;
+    margin-bottom: 15px;
+}
+
+.postagem span{
+    display: block;
+    font-size: 0.8em;
+    border-bottom: solid 1px #d3d3d3;
+    padding: 5px;
+    margin-bottom: 5px;
+}
+
+.postagem a{
+    color: #AE3A3A;
+}
+
+.postagem a:hover{
+    text-decoration: underline;
+}
+
+
+
+/*area de conteudo lateral*/
+#areaConteudoLateral {
+    /* border: solid 1px red; */
+    float: right;
+    width: 240px;
+}
+
+#areaPostagensRecentes {
+    background-color: #ffffff;
+    /* border: solid 1px green; */
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+.postagemRecente {
+    font-size: 0.8em;
+    padding: 5px;
+    border-bottom: solid 1px #b8b8b8;
+}
+
+.postagemRecente a{
+    color: #AE3A3A;
+}
+
+.postagemRecente a:hover{
+    text-decoration: underline;
+}
+
+#areaCategorias {
+    /* border: solid 1px blue; */
+    background-color: #ffffff;
+    padding: 10px;
+}
+
+#areaCategorias a{
+    display: block;
+    color: #AE3A3A;
+    padding: 5px;
+}
+
+#areaCategorias a:hover{
+    background-color: #ececec;
+}
+
+
+
+
+/*area de rodapé*/
+#areaRodape {
+    clear: both;
+    padding: 15px;
+    text-align: center;
+    background: #b3b3b3;
+}
+
+
+
+/*formatações gerais*/
+
+.clear {
+    clear: both;
+}
+
+h2 {
+    color: #AE3A3A;
+}
+
+h3 {
+    font-size: 1.2em;
+    color: #555555;
+    background-color: #d6d6d6;
+    padding: 5px;
+}
+
