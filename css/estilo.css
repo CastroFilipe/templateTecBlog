@@ -12,6 +12,10 @@ body {
     background-color: #e6e6e6;
 }
 
+.clear {
+    clear: both;
+}
+
 /*Layout*/
 
 #area-cabecalho {
@@ -34,6 +38,35 @@ a:hover {
     background: white;
 }
 
+#area-principal {
+    width: 920px;
+    margin: 0px auto;
+}
+
+#area-lateral, #area-postagem{
+    background-color: #fff;
+}
+
+#area-postagem {
+    width: 660px;
+    float: left;
+}
+
+#area-lateral {
+    width: 240px;
+    float: right;
+}
+
+.postagens {
+    padding: 20px;
+}
+
+#rodape {
+    text-align: center;
+    padding: 25px;
+    background-color: #cccccc;
+}
+
 /*Fomatações*/
 
 h1 {
@@ -44,84 +77,3 @@ h1 {
 .branco {
     color: white;
 }
-
-/*
-    #area-logo{
-        margin: 5px;
-        font-size: 40px;
-        font-weight: bolder;
-        color: #4E4E4E;
-    }
-
-    #area-menu {
-        margin: 10px;
-        margin-top: 20px;    
-    }
-
-
-    #area-cabecalho {
-        position: relative;
-        top: 0px;
-        background-color: #F7B600;
-        text-align: center;
-        padding: 20px;
-    }
-
-    a {
-        text-decoration: none;
-    }
-
-    .linkMenu { 
-        padding: 15px;
-        color: #fff;
-    }
-
-    .linkMenu:hover {
-        color: #F7B600;
-        background: white;
-    }
-
-    .detalheLogo {
-        color: white;
-    }
-
-
-    #conteudo {
- 
-        float: left;
-    }
-
-    .areaDePostagem {
-        width: 700px;
-    }
-
-    .areaDePostagem, .areaLateral {
-       
-        float: left;
-        margin: 10px;
-        background-color: #dfdfdf;
-    }
-
- 
-    .postagem {
-       
-        background-color: #fff;
-        margin: 15px;
-        padding: 15px;
-    }
-
-    .postagemLateral {
-        background-color: #fff;
-        margin: 20px;
-        width: 250px;
-        padding: 10px;
-    }
-
-    .clear {
-        clear: both;
-    }
-
-    h2, h3 {
-        margin: 0px;
-    }
-*/
