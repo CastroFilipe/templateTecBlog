@@ -29,22 +29,34 @@ body {
 }
 
 a:link, a:visited {
+    color: #F7B600;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#area-cabecalho a:link,#area-cabecalho a:visited {
     color: #fff;
     padding: 8px 12px;
 }
 
-a:hover {
+#area-cabecalho a:hover {
     color: #F7B600;
     background: white;
+    text-decoration: none;
 }
 
 #area-principal {
+    border: solid 2px red;
     width: 920px;
     margin: 0px auto;
+    padding: 20px 20px 0px 20px;
 }
 
 #area-lateral, #area-postagem{
-    background-color: #fff;
+    border: solid 2px blue;
+    
 }
 
 #area-postagem {
@@ -57,13 +69,31 @@ a:hover {
     float: right;
 }
 
+#postagens-recentes, #categorias {
+    background-color: #ffffff;
+    padding: 10px;
+}
+
+.postagem-recente {
+    font-size: 0.8em;
+    padding: 5px;
+    border-bottom: solid 1px #cecece;
+}
+
 .postagens {
     padding: 20px;
+    margin-bottom: 20px;
+    background-color: #ffffff;
+    border: solid 2px green;
+}
+
+img {
+    width: 620px;
 }
 
 #rodape {
     text-align: center;
-    padding: 25px;
+    padding: 20px;
     background-color: #cccccc;
 }
 
@@ -74,6 +104,22 @@ h1 {
     font-size: 2.5em;
 }
 
+h2 {
+    color: #f7b600;
+}
+
+h3 {
+    color: #646464;
+}
+
 .branco {
     color: white;
+}
+
+.data-postagem {
+    display: block;
+    font-size: 0.8em;
+    border-bottom: solid 1px #e6e6e6;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
 }
